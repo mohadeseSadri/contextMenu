@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(128, 128, 128, 0.412);
+}
+div{
+    position: absolute;
+    width: 15%;
+    background-color: rgba(255, 255, 255, 0.697);
+    border-radius: 10px;
+}
+
+ul{
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: 5% 12%;
+    color: black;
+    font-size: large;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.345);
+}
+
+ul li:hover{
+    background-color: rgba(215, 215, 215, 0.434);
+    color: rgb(98, 141, 190);
+    transition: 1.2s;
+}
+
+.delete:hover{
+    color: brown;
+}
